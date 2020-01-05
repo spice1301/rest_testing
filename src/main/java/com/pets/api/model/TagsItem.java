@@ -1,10 +1,16 @@
 package com.pets.api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javax.annotation.Generated;
 
-@Generated("com.robohorse.robopojogenerator")
 public class TagsItem{
+
+
+	public	TagsItem(String name, int id){
+		this.name = name;
+		this.id = id;
+	}
+	public	TagsItem(){}
+
 
 	@JsonProperty("name")
 	private String name;

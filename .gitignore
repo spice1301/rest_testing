@@ -2,3 +2,5 @@
 .maven/
 build/
 out/
+log/
+target/

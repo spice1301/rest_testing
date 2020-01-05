@@ -2,9 +2,7 @@ package com.pets.api.model;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javax.annotation.Generated;
 
-@Generated("com.robohorse.robopojogenerator")
 public class Pet{
 
 	@JsonProperty("photoUrls")
@@ -49,7 +47,7 @@ public class Pet{
 		return id;
 	}
 
-	public void setCategory(Category category){
+	public void	setCategory(Category category){
 		this.category = category;
 	}
 
